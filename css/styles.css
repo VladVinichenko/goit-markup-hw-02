@@ -88,7 +88,7 @@ body {
 }
 
 .address-footer-list-title-link-map {
-  font-style: normal;
+  font-style: normal; /*здесь не применяется от body, посылает сделать еще и глобальную address*/
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -97,7 +97,7 @@ body {
 }
 
 .address-footer-list-title-link {
-  font-style: normal;
+  font-style: normal; /*здесь не применяется от body, посылает сделать еще и глобальную address*/
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
