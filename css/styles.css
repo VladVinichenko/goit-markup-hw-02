@@ -59,7 +59,7 @@ body {
 /*========== END LOGO ==========*/
 
 /*========== HEADER ==========*/
-.menu-list .menu-link {
+.menu-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -70,6 +70,10 @@ body {
 .menu-link:hover,
 .menu-link:focus,
 .menu-link:active {
+  color: var(--focus-colour);
+}
+
+.current-link {
   color: var(--focus-colour);
 }
 
@@ -221,3 +225,7 @@ body {
   color: var(--seconary-colour);
 }
 /*========== END PORTFOLIO LIST ==========*/
+
+.current {
+  color: var(--focus-colour);
+}
